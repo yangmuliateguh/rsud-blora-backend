@@ -1,0 +1,18 @@
+{
+  "name": "web-rsud-vercel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/api/index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  }
+}
